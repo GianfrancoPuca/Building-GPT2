@@ -17,16 +17,17 @@ We build a training dataset (`input.txt`) from Python files in open-source repos
    ```bash
    python scripts/download_repos.py
 
-Extract Python Files
+2. **Extract Python Files**
+   ```bash
+   python scripts/extract_code.py
 
-python scripts/extract_code.py
-
-(Optional) Clean Code
-
-python scripts/clean_code.py
-Build Dataset
-
-python scripts/build_dataset.py
+3. **Clean Code**
+   ```bash
+   python scripts/clean_code.py
+   
+4. **Build Dataset**
+   ```bash
+   python scripts/build_dataset.py
 
 This generates data/input.txt, a character-level corpus of Python source code.
 
