@@ -33,6 +33,7 @@ This generates data/input.txt, a character-level corpus of Python source code.
 
 📓 Notebooks
 attention_playground.ipynb
+
 An interactive notebook that walks through the core mechanics of attention:
 
 Causal aggregation via manual loops and matrix operations
@@ -46,7 +47,9 @@ Visualization and shape inspection to fully understand self-attention dynamics
 Useful for educational purposes or prototyping new attention mechanisms.
 
 🚀 Training the Model
-train.py
+
+   train.py
+
 A full training script that defines and trains a mini-GPT Transformer model on the input.txt corpus.
 
 Features:
@@ -62,8 +65,10 @@ Configurable hyperparameters (batch size, layers, etc.)
 
 Text generation from a trained model
 
-Run:
-python train.py
+**Run:**
+   ```bash
+   python train.py
+   ```
 
 This will:
 
