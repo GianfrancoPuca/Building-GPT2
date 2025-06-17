@@ -3,24 +3,6 @@
 This project implements a **miniature GPT-style language model** trained on **Python code extracted from real GitHub repositories**. Inspired by Andrej Karpathy's nanoGPT series, the project goes beyond toy datasets like Shakespeare and focuses instead on generating structured, executable Python code.
 
 ---
-
-## 📂 Project Structure
-
-.
-├── data/
-│ └── input.txt # The full training corpus, extracted from GitHub repositories
-├── scripts/
-│ ├── download_repos.py # Clones GitHub repositories for data collection
-│ ├── extract_code.py # Extracts .py files and concatenates them into a single text corpus
-│ ├── clean_code.py # Optionally cleans and normalizes the code (whitespace, formatting, etc.)
-│ └── build_dataset.py # Orchestrates the entire pipeline and generates input.txt
-├── notebooks/
-│ └── attention_playground.ipynb # Interactive notebook to visualize and understand attention
-├── train.py # Full training script: from input.txt to trained model and generation
-└── README.md
-
----
-
 ## 📥 Dataset Creation Pipeline
 
 We build a training dataset (`input.txt`) from Python files in open-source repositories.
