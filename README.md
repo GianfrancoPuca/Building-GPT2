@@ -46,6 +46,24 @@ Visualization and shape inspection to fully understand self-attention dynamics
 
 Useful for educational purposes or prototyping new attention mechanisms.
 
+---
+
+
+### `notebook.ipynb`
+
+An end-to-end interactive exploration of how GPT-style models work on Python code.
+
+#### Covers:
+- Loading and encoding the `input.txt` corpus
+- Token-level batching and input/target generation
+- Training a basic Bigram model with cross-entropy loss
+- Generating Python code samples from the trained model
+- Visual and numerical insights into how attention works internally
+
+> Perfect for learning, debugging, and prototyping before moving to full script-based training.
+
+---
+
 🚀 Training the Model
 
    train.py
