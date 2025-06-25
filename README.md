@@ -119,10 +119,3 @@ Inspired by Andrej Karpathy’s nanoGPT series
 GitHub repositories used: TheAlgorithms/Python and python/cpython
 
 ---
-
-Let me know if you'd like me to add:
-- Code examples (for usage in a `Usage` section)
-- Badges (e.g., Python version, license, etc.)
-- Docker or virtualenv setup instructions
-
-This README is already detailed and production-quality, but happy to tailor it further!
